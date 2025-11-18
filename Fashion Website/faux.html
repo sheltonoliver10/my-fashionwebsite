@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flawless in Faux | Hot and Borrowed</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+    }
+
+    .top-line {
+      height: 10px;
+      background: black;
+      width: 100%;
+    }
+
+    header.chanel-header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 30px 40px;
+      background-color: #fff;
+      gap: 30px;
+    }
+
+    header.chanel-header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.8rem;
+      font-weight: 900;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin: 0;
+      flex-shrink: 0;
+    }
+
+    .main-nav {
+      display: flex;
+      align-items: center;
+    }
+
+    .main-nav ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+      padding: 0;
+      margin: 0;
+    }
+
+    .main-nav a {
+      text-decoration: none;
+      color: #000;
+      font-weight: 500;
+      letter-spacing: 1px;
+      font-size: 0.85rem;
+      transition: color 0.3s ease;
+    }
+
+    .main-nav a:hover {
+      color: #777;
+    }
+
+    .shop-page {
+      text-align: center;
+      padding: 0.5rem 1rem;
+    }
+
+    .shop-page h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .page-intro {
+      color: #444;
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .items-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      max-width: 1200px;
+      margin: 1rem auto 0;
+      padding: 0 1rem;
+    }
+
+    .item {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .item:hover {
+      transform: translateY(-5px);
+    }
+
+    .item img {
+      width: 100%;
+      height: 420px;
+      object-fit: cover;
+    }
+
+    .item h3 {
+      margin: 1rem 0 0.5rem;
+      font-size: 1.1rem;
+      font-weight: 700;
+    }
+
+    .buy-btn {
+      display: inline-block;
+      background-color: black;
+      color: white;
+      text-decoration: none;
+      padding: 0.6rem 1.2rem;
+      margin-bottom: 1.5rem;
+      border-radius: 4px;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+
+    .buy-btn:hover {
+      background-color: #444;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #f5f5f5;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="top-line"></div>
+
+  <header class="chanel-header">
+    <nav class="main-nav">
+      <ul>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="rentals.html">RENTALS</a></li>
+      </ul>
+    </nav>
+    <h1><a href="index.html" style="text-decoration: none; color: inherit;">HOT AND BORROWED</a></h1>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="edit.html">REVIVALS</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="shop-page">
+    <div class="items-grid">
+      <!-- Product 1 -->
+      <div class="item">
+        <a href="https://thefrankieshop.com/products/rotate-faux-fur-scarf-zinfandel" target="_blank">
+          <img src="images/frankieshop.jpg" alt="Rotate Faux Fur Scarf" />
+        </a>
+        <h3>Rotate Faux Fur Scarf – Zinfandel</h3>
+        <a href="https://thefrankieshop.com/products/rotate-faux-fur-scarf-zinfandel" target="_blank" class="buy-btn">Shop Now</a>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="item">
+        <a href="https://apparis.com/products/rowen-mink-scarf-bmk?variant=52057098060141" target="_blank">
+          <img src="images/apparis.jpg" alt="Apparis Rowen Mink Scarf" />
+        </a>
+        <h3>Apparis Rowen Mink Scarf</h3>
+        <a href="https://apparis.com/products/rowen-mink-scarf-bmk?variant=52057098060141" target="_blank" class="buy-btn">Shop Now</a>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="item">
+        <a href="https://www.net-a-porter.com/en-us/shop/product/nour-hammour/accessories/scarves/evita-shearling-scarf/1647597344395205" target="_blank">
+          <img src="images/nourhammour.jpg" alt="Nour Hammour Shearling Scarf" />
+        </a>
+        <h3>Nour Hammour Evita Shearling Scarf</h3>
+        <a href="https://www.net-a-porter.com/en-us/shop/product/nour-hammour/accessories/scarves/evita-shearling-scarf/1647597344395205" target="_blank" class="buy-btn">Shop Now</a>
+      </div>
+
+      <!-- Product 4 (ASOS) -->
+      <div class="item">
+        <a href="https://www.etsy.com/ie/listing/4362126351/luxury-brown-faux-fur-collar-scarf" target="_blank">
+          <img src="images/etsy.jpg" alt="Luxury-Brown-Faux-Fur-Collar-Scarf" />
+        </a>
+        <h3>Luxury-Brown-Faux-Fur-Collar-Scarf"</h3>
+        <a href="https://www.etsy.com/ie/listing/4362126351/luxury-brown-faux-fur-collar-scarf" target="_blank" class="buy-btn">Shop Now</a>
+      </div>
+
+      <!-- Product 5 -->
+      <div class="item">
+        <a href="https://www.mytheresa.com/at/en/women/toteme-faux-fur-scarf-brown-p00949841 target="_blank">
+          <img src="images/toetme.jpg" alt="Brown Faux Fur Scarf" />
+        </a>
+        <h3>Brown Faux Fur Scarf</h3>
+        <a href="https://www.mytheresa.com/at/en/women/toteme-faux-fur-scarf-brown-p00949841 target="_blank" class="buy-btn">Shop Now</a>
+      </div>
+
+      <!-- Product 6 -->
+      <div class="item">
+        <a href="https://www.etsy.com/listing/1184331850/refurbished-new-dark-ranch-mink-double?gpla=1&gao=1&&utm_source=google&utm_medium=cpc&utm_campaign=shopping_us_a-accessories&utm_custom1=_k_CjwKCAiAz_DIBhBJEiwAVH2XwBRlKwf16waLiMBSXSJwWfWsJODaDPRG5fNMaAGf7jC1c5qoeln6QhoCRzYQAvD_BwE_k_&utm_content=go_22633514313_182190773644_756432244778_aud-2079782229334:pla-294930372950_c__1184331850_341591297&utm_custom2=22633514313&gad_source=1&gad_campaignid=22633514313&gbraid=0AAAAADtcfRJv0_J4bU1i0oIHkGz2BBsHu&gclid=CjwKCAiAz_DIBhBJEiwAVH2XwBRlKwf16waLiMBSXSJwWfWsJODaDPRG5fNMaAGf7jC1c5qoeln6QhoCRzYQAvD_BwE" target="_blank">
+          <img src="images/etsy2.jpg" alt="RefurbishedDark Ranch Mink" />
+        </a>
+        <h3>Refurbished Dark Ranch Mink</h3>
+        <a href="https://www.etsy.com/listing/1184331850/refurbished-new-dark-ranch-mink-double?gpla=1&gao=1&&utm_source=google&utm_medium=cpc&utm_campaign=shopping_us_a-accessories&utm_custom1=_k_CjwKCAiAz_DIBhBJEiwAVH2XwBRlKwf16waLiMBSXSJwWfWsJODaDPRG5fNMaAGf7jC1c5qoeln6QhoCRzYQAvD_BwE_k_&utm_content=go_22633514313_182190773644_756432244778_aud-2079782229334:pla-294930372950_c__1184331850_341591297&utm_custom2=22633514313&gad_source=1&gad_campaignid=22633514313&gbraid=0AAAAADtcfRJv0_J4bU1i0oIHkGz2BBsHu&gclid=CjwKCAiAz_DIBhBJEiwAVH2XwBRlKwf16waLiMBSXSJwWfWsJODaDPRG5fNMaAGf7jC1c5qoeln6Qho" target="_blank" class="buy-btn">Shop Now</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 HOT AND BORROWED. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
